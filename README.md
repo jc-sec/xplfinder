@@ -6,4 +6,4 @@
 	- git clone https://github.com/jc-sec/xplfinder.git
 	- https://github.com/jc-sec/xplfinder/archive/refs/heads/main.zip
 # Requirements
-	- ***pip3 install -r requirements.txt***
+	***pip3 install -r requirements.txt***
