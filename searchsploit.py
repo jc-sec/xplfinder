@@ -8,7 +8,6 @@ import os
 from colorama import Fore
 import datetime
 
-clear = os.system('cls' if os.name == 'nt' else 'clear')
 now = datetime.datetime.now()
 
 yellow = Fore.YELLOW
@@ -17,6 +16,7 @@ red = Fore.RED
 headers = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0'}
 
 def c():
+	os.system('cls' if os.name == 'nt' else 'clear')
 	print('''
              ______         __
  __ __ ___  / / _(_)__  ___/ /__ ____
